@@ -1,0 +1,1 @@
+print(sum([(1 if x == '(' else (-1)) for x in open('in').read()]))

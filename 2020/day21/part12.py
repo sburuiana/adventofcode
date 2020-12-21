@@ -1,6 +1,6 @@
 import re
 
-v = open('in').read().split('\n')
+v = open('in').read().replace('(', '').replace(')', '').replace(',', '').split('\n')
 ingr = {}
 alg = {}
 appearsOnSameLineIngr = {}
